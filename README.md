@@ -86,8 +86,6 @@ The project utilizes two datasets:
 
 ### Tools
 
-### Tools
-
 - Python: Data Cleaning and Analysis
 
     [Download Python](https://www.python.org/downloads/)
@@ -124,9 +122,9 @@ Below are the links for details and commands (if required) to install the necess
 
 ### Recommendation Techniques
 
-- **Simple Recommender** - IMDB Weighted Rating: Uses a formula to calculate weighted ratings based on average rating, number of votes, and a minimum vote threshold.
+- **Simple Recommender - IMDB Weighted Rating**: Uses a formula to calculate weighted ratings based on average rating, number of votes, and a minimum vote threshold.
 
-- **Simple Recommender** - Trending Movies: Recommends trending movies based on popularity.
+- **Simple Recommender - Trending Movies**: Recommends trending movies based on popularity.
 
 - **Content-Based Filtering**:
 1) **Overview Based**: Recommends movies based on plot similarity using TF-IDF and cosine similarity. TF-IDF (Term Frequency-Inverse Document Frequency) is a statistical measure used to evaluate the importance of a word in a document relative to a collection of documents.
@@ -150,30 +148,37 @@ Below are the links for details and commands (if required) to install the necess
 ### For IMDB Dataset:
 
 #### Simple Recommender - IMDB Weighted Rating
-Findings: Weighted ratings calculated using IMDB formula, top 20 movies sorted by score.
+
+**Findings: Weighted ratings calculated using IMDB formula, top 20 movies sorted by score.**
+
 ![Results](https://i.postimg.cc/sfHT6h4v/Screenshot-2024-05-27-at-18-48-24-movie-recommender-Jupyter-Notebook.png)
 
 #### Simple Recommender - Trending Movies:
-Findings: Top 10 movies sorted by popularity.
+
+**Findings: Top 10 movies sorted by popularity.**
+
 ![Results](https://i.postimg.cc/fbx9d6Bx/Screenshot-2024-05-27-at-18-50-24-movie-recommender-Jupyter-Notebook.png)
 
 #### Content-Based Filtering - Overview Based
-Findings: Recommends movies based on plot similarity using TF-IDF and cosine similarity.
+
+**Findings: Recommends movies based on plot similarity using TF-IDF and cosine similarity.**
+
 ![Results](https://i.postimg.cc/ZnqHVTQk/Screenshot-2024-05-27-at-18-52-37-movie-recommender-Jupyter-Notebook.png)
 
 #### Content-Based Filtering - Credits, Genres, and Keywords Based
-Findings: Recommends movies based on similarity in cast, crew, genres, and keywords using CountVectorizer and cosine similarity.
-![Results](https://i.postimg.cc/2SCQwjL0/Screenshot-2024-05-27-at-18-53-40-movie-recommender-Jupyter-Notebook.png)
 
+**Findings: Recommends movies based on similarity in cast, crew, genres, and keywords using CountVectorizer and cosine similarity.**
+
+![Results](https://i.postimg.cc/2SCQwjL0/Screenshot-2024-05-27-at-18-53-40-movie-recommender-Jupyter-Notebook.png)
 
 ### For Ratings Dataset:
 
 #### Collaborative Filtering - SVD
-Findings: Predicted user ratings for movies using SVD with evaluation metrics MAE and RMSE. 
+**Findings: Predicted user ratings for movies using SVD with evaluation metrics MAE and RMSE.** 
 
 ![Results](https://i.postimg.cc/yNyYTB9y/Screenshot-2024-05-27-at-18-56-59-movie-recommender-Jupyter-Notebook.png)
 
-SVD was used to suggest top 5 movies for a given user(example -user 1)
+**Find top 10 recommended movies for a given user(Example - user 1)**
 
 ![Results](https://i.postimg.cc/1Rj7Jjpk/Screenshot-2024-05-27-at-18-58-42-movie-recommender-Jupyter-Notebook.png)
 
