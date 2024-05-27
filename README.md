@@ -178,7 +178,7 @@ Below are the links for details and commands (if required) to install the necess
 
 ![Results](https://i.postimg.cc/yNyYTB9y/Screenshot-2024-05-27-at-18-56-59-movie-recommender-Jupyter-Notebook.png)
 
-**Find top 10 recommended movies for a given user(Example - user 1)**
+**Findings: Top 10 recommended movies for a given user(Example - user 1)**
 
 ![Results](https://i.postimg.cc/1Rj7Jjpk/Screenshot-2024-05-27-at-18-58-42-movie-recommender-Jupyter-Notebook.png)
 
